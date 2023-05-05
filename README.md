@@ -23,6 +23,8 @@ Places will Have:
 4. cuisines(string)
 5. pic(string)
 
+coffe shop photo https://unsplash.com/@romanbozhko
+cafe photo https://unsplash.com/@mparzuchowski
 
 $ npm i react express-react-views
 npm WARN ERESOLVE overriding peer dependency
@@ -48,3 +50,17 @@ npm WARN peer react@"^16.14.0" from react-dom@16.14.0
 npm WARN node_modules/react-dom
 npm WARN   peer react-dom@"^0.14.0 || ^15.0.0 || ^16.0.0" from express-react-views@0.11.0
 npm WARN   node_modules/express-react-views
+
+% Warning: Each child in a list should have a unique "key" prop.
+
+% Check the top-level render call using <main>. See https://reactjs.org/link/warning-keys for more information.
+%     at div
+%     in index
+% [nodemon] restarting due to changes...
+% [nodemon] starting `node index.js`
+% Warning: Each child in a list should have a unique "key" prop.
+
+% Check the top-level render call using <main>. See https://reactjs.org/link/warning-keys for more information.
+%     at div
+%     in index
+% when adding layout page in default jsx and/or when adding button in home.jsx
