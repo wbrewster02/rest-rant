@@ -6,7 +6,9 @@ function index (data) {
     return (
       <div key={i} className="col-sm-6">
         <h2>
-          {place.name}
+          <a href={`/places/${i}`}>
+            {place.name}
+          </a>
         </h2>
         <p className="text-center">
           {place.cuisines}
