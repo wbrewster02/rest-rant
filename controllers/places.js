@@ -31,9 +31,9 @@ router.get('/:id', (req,res) => {
   let id = Number(req.params.id)
   if (isNaN(id)) {
     res.render('error404')
-  }else if (!Places[id]) {
+  } else if (!Places[id]) {
     res.render('error404')
-  }else {
+  } else {
     res.render('places/show', { 
       place: Places[id],
       id
@@ -48,8 +48,7 @@ router.get('/:id/edit', (req, res) => {
   }
   else if (!Places[id]) {
       res.render('error404')
-  }
-  else {
+  } else {
     res.render('places/edit', { 
       place: Places[id],
       id
