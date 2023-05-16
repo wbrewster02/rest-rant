@@ -26,29 +26,6 @@ Places will Have:
 coffe shop photo https://unsplash.com/@romanbozhko
 cafe photo https://unsplash.com/@mparzuchowski
 
-$ npm i react express-react-views
-npm WARN ERESOLVE overriding peer dependency
-npm WARN While resolving: rest-rant@1.0.0
-npm WARN Found: react@16.14.0
-npm WARN node_modules/react
-npm WARN   react@"*" from the root project
-npm WARN   2 more (express-react-views, react-dom)
-npm WARN
-npm WARN Could not resolve dependency:
-npm WARN peer react@"^0.14.0 || ^15.0.0 || ^16.0.0" from express-react-views@0.11.0
-npm WARN node_modules/express-react-views
-npm WARN   express-react-views@"*" from the root project
-npm WARN ERESOLVE overriding peer dependency
-npm WARN While resolving: rest-rant@1.0.0
-npm WARN Found: react@16.14.0
-npm WARN node_modules/react
-npm WARN   react@"*" from the root project
-npm WARN   2 more (express-react-views, react-dom)
-npm WARN
-npm WARN Could not resolve dependency:
-npm WARN peer react@"^16.14.0" from react-dom@16.14.0
-npm WARN node_modules/react-dom
-npm WARN   peer react-dom@"^0.14.0 || ^15.0.0 || ^16.0.0" from express-react-views@0.11.0
-npm WARN   node_modules/express-react-views
+
 
 
